@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: testapp-testunit-rspec_development
+  pool: 5
+  username: testapp-testunit-rspec
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: testapp-testunit-rspec_test
+  pool: 5
+  username: testapp-testunit-rspec
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: testapp-testunit-rspec_production
+  pool: 5
+  username: testapp-testunit-rspec
+  password:
